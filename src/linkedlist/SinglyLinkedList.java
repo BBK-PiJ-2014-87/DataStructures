@@ -1,13 +1,13 @@
 package linkedlist;
 /**
- * Implementation of linked list using generics.
+ * Implementation of linked list using generic types.
  *
  * @param <E>
  */
 public class SinglyLinkedList<E> {
 	/**
 	 * Nested Node class. Having a Node as a nested class
-	 * provides strong encapsulaton and hides information from users
+	 * provides strong encapsulation and hides information from users
 	 * about nodes and links implementation.
 	 */
 	private static class Node<E>{
@@ -31,7 +31,7 @@ public class SinglyLinkedList<E> {
 		public void setNextNode(Node<E> node){
 			next = node;
 		}
-		//FINISH of methods of nestes class Node
+		//FINISH of methods of nested class Node
 	}
 	
 	//Instance variables of SinglyLinkedList class
